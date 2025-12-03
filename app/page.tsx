@@ -93,13 +93,13 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section className="relative border-y border-border overflow-hidden section-gradient-blue">
+        <section className="relative border-y border-border overflow-hidden section-gradient-blue isolate z-20">
           <img
             src="/sports-stadium-panoramic-view-with-lights-and-fiel.jpg"
             alt="Stadium"
             className="absolute inset-0 w-full h-full object-cover opacity-10"
           />
-          <div className="absolute inset-0 bg-card/80 dark:bg-card/90" />
+          <div className="absolute inset-0 bg-card/80 dark:bg-card/90 z-0" />
           <div className="container mx-auto px-4 py-16 relative z-10">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
               <div className="text-center">
@@ -123,22 +123,22 @@ export default function HomePage() {
         </section>
 
         {/* Choose Your Sport Section */}
-        <section className="py-20 section-gradient-green">
-          <div className="container mx-auto px-4">
-            <div className="flex items-center justify-between mb-10">
-              <div>
+        <section className="py-20 section-gradient-green relative isolate overflow-hidden">
+          <div className="container mx-auto px-4 relative z-10">
+            <div className="flex items-center justify-between mb-10 relative z-20 pb-4">
+              <div className="relative z-30">
                 <h2 className="font-display text-4xl md:text-5xl tracking-wider text-foreground">CHOOSE YOUR SPORT</h2>
                 <p className="text-muted-foreground mt-2">Explore teams and players across all major leagues</p>
               </div>
               <Link
                 href="/sports"
-                className="hidden md:flex items-center gap-1 text-primary hover:underline font-medium"
+                className="hidden md:flex items-center gap-1 text-primary hover:underline font-medium relative z-30"
               >
                 View All <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
 
-            <SportCard sport={featuredSport} featured />
+           
 
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mt-6">
               {otherSports.map((sport) => (
@@ -171,11 +171,7 @@ export default function HomePage() {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="group relative bg-card border border-border rounded-2xl overflow-hidden hover:border-primary/50 transition-all gradient-border shadow-lg">
                 <div className="aspect-video relative">
-                  <img
-                    src="/real-time-sports-score-updates-mobile-app-notifica.jpg"
-                    alt="Real-time updates"
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
+                  
                   <div className="absolute inset-0 bg-gradient-to-t from-card via-card/50 to-transparent" />
                 </div>
                 <div className="p-6">
