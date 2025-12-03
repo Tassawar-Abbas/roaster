@@ -74,7 +74,7 @@ export function AuthDialog({ open, onOpenChange }: AuthDialogProps) {
         {view === "main" && (
           <>
             <DialogHeader>
-              <DialogTitle className="text-center text-2xl font-display tracking-wider">Welcome to FanZone</DialogTitle>
+              <DialogTitle className="text-center text-2xl font-display tracking-wider">Welcome to Roaster</DialogTitle>
               <DialogDescription className="text-center">
                 Sign in to save your favorite players and teams
               </DialogDescription>
