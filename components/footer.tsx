@@ -160,14 +160,7 @@ export function Footer() {
 
         <div className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">© 2025 ROASTER. All rights reserved.</p>
-          <div className="flex items-center gap-4 text-sm text-muted-foreground">
-            <span className="flex items-center gap-1">
-              <MapPin className="w-3 h-3" />
-              United States
-            </span>
-            <span>|</span>
-            <span>Affiliate links may earn commission</span>
-          </div>
+        
         </div>
       </div>
     </footer>
