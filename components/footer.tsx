@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 export function Footer() {
   return (
     <footer className="border-t border-border bg-card mt-20">
-      {/* Newsletter Section */}
+      {/* Newsletter Section 
       <div className="border-b border-border section-gradient-blue">
         <div className="container mx-auto px-4 py-12">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
@@ -28,7 +28,7 @@ export function Footer() {
             </div>
           </div>
         </div>
-      </div>
+      </div>*/}
 
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
@@ -113,16 +113,7 @@ export function Footer() {
                   Trending News
                 </a>
               </li>
-              <li>
-                <a href="#" className="hover:text-primary transition-colors">
-                  Shop Gear
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-primary transition-colors">
-                  Get Tickets
-                </a>
-              </li>
+              
             </ul>
           </div>
 
@@ -134,16 +125,8 @@ export function Footer() {
                   About Us
                 </a>
               </li>
-              <li>
-                <a href="#" className="hover:text-primary transition-colors">
-                  Contact
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-primary transition-colors">
-                  Careers
-                </a>
-              </li>
+            
+             
               <li>
                 <a href="#" className="hover:text-primary transition-colors">
                   Privacy Policy

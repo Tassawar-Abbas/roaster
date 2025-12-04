@@ -13,7 +13,7 @@ const bebasNeue = Bebas_Neue({
 })
 
 export const metadata: Metadata = {
-  title: "FanZone - Your Sports Hub",
+  title: "Roaster - Your Sports Hub",
   description:
     "Track your favorite athletes across NFL, NBA, MLB, NHL, MLS, and WNBA. Get the latest updates, social content, and player movements.",
   keywords: ["sports", "athletes", "NFL", "NBA", "MLB", "NHL", "MLS", "WNBA", "player tracking"],
